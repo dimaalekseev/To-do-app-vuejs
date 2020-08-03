@@ -4,7 +4,6 @@
     <hr />
     <p>Plan your day, create your tasks, edit, delete and enjoy it!</p>
     <p>First Create, then Edit!</p>
-    <router-link to="/create">Create</router-link>
-    <router-link to="/edit">Edit</router-link>
+    <router-link to="/todos">Todos!</router-link>
   </div>
 </template>

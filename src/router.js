@@ -11,12 +11,8 @@ export default new Router({
             component: Home
         },
         {
-            path: '/create',
+            path: '/todos',
             component: ()=>import('./components/TodoApp.vue')
         },
-        {
-            path:'/edit',
-            component: ()=>import('./components/TodoList.vue')
-        }
     ]
 })

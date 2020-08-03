@@ -12,7 +12,6 @@
       v-for="todo in todos"
       :key="todo.id"
       :todo.sync="todo"
-      
     />
   </div>
 </template>
